@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Consulta_pro() {
+function Consulta_cat() {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
