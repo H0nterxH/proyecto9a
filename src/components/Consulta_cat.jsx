@@ -71,7 +71,7 @@ function Consulta_cat() {
                                                         <td>{item.Personal}</td>
                                                         <td >
                                                             <button className='btn btn-sm bg-blue col-lg-4 offset-md-1'>Editar</button>
-                                                            <button className='btn btn-sm bg-danger col-lg-4 offset-md-1 '>Borrar</button>
+                                                            <button className='btn btn-sm bg-danger col-lg-4 offset-md-1 ' onClick={() => handleDelete(item.IdCategoria)}>Borrar</button>
                                                         </td>
                                                     </tr>
                                                 ))}
